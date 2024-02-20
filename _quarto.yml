@@ -1,0 +1,19 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  navbar:
+    left: 
+      - text: "About me"
+        href: 1pg.qmd
+      - text: "Education"
+        href: 2pg.qmd
+      - text: "page 3"
+        href: 3pg.qmd
+
+format: 
+  html: 
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
