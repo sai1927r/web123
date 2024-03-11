@@ -165,3 +165,7 @@ library(ggplot2)
 ```
 
 The output graph is a line graph with car models on the x-axis, miles on the y-axis, a line connecting the mileage points for each car model, and blue text labels above the line indicating the specific mileage values. The y-axis is limited to ensure the plot accommodates all data points within a reasonable range. The graph provides a visual representation of how the mileage varies across different electric car models over the specified range.
+
+# YouTube Link:
+
+<https://youtu.be/zSu4tyZB_l4>
