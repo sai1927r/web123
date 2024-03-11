@@ -1,0 +1,20 @@
+salary<-read.csv('C:/Users/HP/Downloads/US companies.csv')
+str(salary)
+head(salary)
+
+#bar graph
+ggplot(salary, aes(x = employer, y = median_total_salary,group = 1)) +
+  geom_bar(stat = "identity",fill = 'blue') +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+#scatter plot
+ggplot(salary, aes(x = employer, y = median_total_salary)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+#line graph using ggplot
+ggplot(salary, aes(x = employer, y = median_total_salary, group = 1)) +
+  geom_line() +
+  labs(title = 'Employer Median Total Salary Line Graph', x = 'Employer') +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))

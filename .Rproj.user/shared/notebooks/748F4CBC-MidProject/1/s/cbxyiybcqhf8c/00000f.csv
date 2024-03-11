@@ -1,0 +1,8 @@
+"0","# scatter plot using ggplot"
+"0","library(ggplot2)"
+"0","        ggplot(EVcars, aes(x = MODEL, y = MILES, group = 1)) +"
+"0","        geom_point() +"
+"0","        geom_text(aes(label = MILES), vjust = -0.5, color = 'blue', size = 3) +"
+"0","        labs(title = 'Car Miles Scatter Plot', x = 'Car Names', y = 'Miles') +"
+"0","        theme(axis.text.x = element_text(angle = 90, hjust = 1)) +"
+"0","        ylim(0, max(EVcars$MILES) + 100) "

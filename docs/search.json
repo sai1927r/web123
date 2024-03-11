@@ -1,17 +1,24 @@
 [
   {
+    "objectID": "MidProject.html",
+    "href": "MidProject.html",
+    "title": "Data set 2",
+    "section": "",
+    "text": "Mid Project\nproject group : 18\nSai Yashwanth Reddy Gowram\nG01477699\nPrawanth Reddy Talasani\nG01478008"
+  },
+  {
+    "objectID": "MidProject.html#data-set-1",
+    "href": "MidProject.html#data-set-1",
+    "title": "Data set 2",
+    "section": "Data Set 1",
+    "text": "Data Set 1\n\nD\n\n\nRank\nEmployer\nMedian_Total_Salary\n\n\n\n\n1\nPalo Alto Networks\n170929\n\n\n2\nNVIDIA\n170068\n\n\n3\nTwitter\n162852\n\n\n4\nGilead Sciences\n162210\n\n\n5\nGoogle\n161254\n\n\n6\nVMware\n158063\n\n\n7\nLinkedIn\n157402\n\n\n8\nFacebook\n152962\n\n\n9\nSalesforce\n150379\n\n\n10\nMicrosoft\n148068\n\n\n11\nJuniper Networks\n146781\n\n\n12\nServiceNow\n145529\n\n\n13\nMcKinsey & Company\n145367\n\n\n14\nPlayStation\n143229\n\n\n15\nAutodesk\n142083\n\n\n16\nWorkday\n141893\n\n\n17\nSynopsys\n140577\n\n\n18\neBay\n140056\n\n\n19\nBNP Paribas\n140056\n\n\n20\nQualcomm\n139754\n\n\n21\nTableau Software\n138043\n\n\n22\nWestern Digital\n137527\n\n\n23\nVeritas\n137244\n\n\n24\nAdobe\n135027\n\n\n25\nGenentech\n133605\n\n\n\nThe Bad Visualization\n\nExplanation about the Bad Visualization\nThe Visualization explains about the Highest paying Companies In the year 2019 and their ranking by median total salary. In the given visualization the salary amount is a round off figure and we made three proper visualization from the above data set we took .We will be doing Bar graph, Scatter Plot , Line graph as proper visualization.\n\nsalary&lt;-read.csv('C:/Users/HP/Downloads/US companies.csv')\nstr(salary)\n\n'data.frame':   26 obs. of  4 variables:\n $ rank               : int  1 2 3 4 5 6 7 8 9 10 ...\n $ employer           : chr  \"Palo Alto Networks\" \"NVIDIA\" \"Twitter\" \"Gilead Sciences\" ...\n $ median_total_salary: chr  \"1,70,929\" \"1,70,068\" \"1,62,852\" \"1,62,210\" ...\n $ X                  : logi  NA NA NA NA NA NA ...\n\nhead(salary)\n\n  rank           employer median_total_salary  X\n1    1 Palo Alto Networks            1,70,929 NA\n2    2             NVIDIA            1,70,068 NA\n3    3            Twitter            1,62,852 NA\n4    4    Gilead Sciences            1,62,210 NA\n5    5             Google            1,61,254 NA\n6    6             VMware            1,58,063 NA\n\n\n\n#bar graph\nlibrary(ggplot2)\nggplot(salary, aes(x = employer, y = median_total_salary,group = 1)) +\n  geom_bar(stat = \"identity\",fill = 'blue') +\n  theme(axis.text.x = element_text(angle = 90, hjust = 1))\n\n\n\n\nThe result is that the resulting graph is a bar chart where each bar represents a different employer, and the height of each bar corresponds to the median total salary for that employer. The bars are filled with a blue color, and the x-axis labels are rotated for better visualization.\n\n#scatter plot\nlibrary(ggplot2)\nggplot(salary, aes(x = employer, y = median_total_salary)) +\n  geom_point() +\n  theme(axis.text.x = element_text(angle = 90, hjust = 1))\n\n\n\n\nThe resulting graph is a scatter plot where each point represents a different employer. The x-axis shows the employers, and the y-axis shows the corresponding median total salary. This type of plot is useful for visualizing the distribution and relationships between individual data points for each employer.\n\n#line graph using ggplot\nlibrary(ggplot2)\nggplot(salary, aes(x = employer, y = median_total_salary, group = 1)) +\n  geom_line() +\n  labs(title = 'Employer Median Total Salary Line Graph', x = 'Employer') +\n  theme(axis.text.x = element_text(angle = 90, hjust = 1))\n\n\n\n\nThe output graph is a line graph with employers on the x-axis, median total salaries on the y-axis, and a line connecting the median total salary points for each employer. The x-axis labels (employer names) will be rotated by 90 degrees for better visibility. The graph provides a visual representation of how median total salaries vary across different employers."
+  },
+  {
     "objectID": "1pg.html",
     "href": "1pg.html",
     "title": "",
     "section": "",
-    "text": "I am sai yashwanth reddy. I am from India, Andhra Pradesh, Anantapur. my highest education qualification is under-graduation.\nCurrently pursuing a Master’s degree at George Mason University, with a strong passion for data analytics. eager to investigate how insights and data might be combined to support well-informed decision-making. devoted to using cutting-edge analytical abilities for practical use. thrilled to make a significant contribution and add to the developing field of data analytics.\nThank You"
-  },
-  {
-    "objectID": "1pg.html#about-me",
-    "href": "1pg.html#about-me",
-    "title": "",
-    "section": "",
-    "text": "I am sai yashwanth reddy. I am from India, Andhra Pradesh, Anantapur. my highest education qualification is under-graduation.\nCurrently pursuing a Master’s degree at George Mason University, with a strong passion for data analytics. eager to investigate how insights and data might be combined to support well-informed decision-making. devoted to using cutting-edge analytical abilities for practical use. thrilled to make a significant contribution and add to the developing field of data analytics.\nThank You"
+    "text": "About me\nI am Sai Yashwanth Reddy. I am from India. Currently i am pursing my masters in George Mason University in Data Analytics engineering. I sucessfully completed my Undergraduation from Vellore Institute of Technology in Electronics and Communication Engineering."
   },
   {
     "objectID": "2pg.html",

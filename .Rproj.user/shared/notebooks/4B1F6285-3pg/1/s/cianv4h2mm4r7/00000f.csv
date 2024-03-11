@@ -1,0 +1,5 @@
+"0","#scatter plot"
+"0","library(ggplot2)"
+"0","ggplot(salary, aes(x = employer, y = median_total_salary)) +"
+"0","  geom_point() +"
+"0","  theme(axis.text.x = element_text(angle = 90, hjust = 1))"

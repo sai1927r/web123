@@ -1,0 +1,31 @@
+{
+    "id": "A57765D5",
+    "path": "D:/STAT -515/web123/MidProject.qmd",
+    "project_path": "MidProject.qmd",
+    "type": "quarto_markdown",
+    "hash": "3389001056",
+    "contents": "",
+    "dirty": false,
+    "created": 1710175256791.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "1389,1975,1981",
+        "rmdVisualModeLocation": "56:0",
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1710180994,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1710180994425,
+    "read_only": false,
+    "read_only_alternatives": []
+}
