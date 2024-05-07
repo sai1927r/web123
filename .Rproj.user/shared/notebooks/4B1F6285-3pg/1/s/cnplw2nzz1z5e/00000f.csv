@@ -1,6 +1,0 @@
-"0","#line graph using ggplot"
-"0","library(ggplot2)"
-"0","ggplot(salary, aes(x = employer, y = median_total_salary, group = 1)) +"
-"0","  geom_line() +"
-"0","  labs(title = 'Employer Median Total Salary Line Graph', x = 'Employer') +"
-"0","  theme(axis.text.x = element_text(angle = 90, hjust = 1))"

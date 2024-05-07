@@ -1,7 +1,0 @@
-"0","# bar graph using ggplot"
-"0","library(ggplot2)"
-"0","  ggplot(EVcars, aes(x = MODEL, y = PRICE)) +"
-"0","    geom_bar(stat = ""identity"", fill = 'red') +"
-"0","    geom_text(aes(label = PRICE), vjust = -0.5, color = 'black', size = 3) +  "
-"0","    labs(title = 'Car Prices Bar Plot', x = 'Car Names', y = 'Prices') +"
-"0","    theme(axis.text.x = element_text(angle = 90, hjust = 1))"

@@ -1,5 +1,0 @@
-"0","#bar graph"
-"0","library(ggplot2)"
-"0","ggplot(salary, aes(x = employer, y = median_total_salary,group = 1)) +"
-"0","  geom_bar(stat = ""identity"",fill = 'blue') +"
-"0","  theme(axis.text.x = element_text(angle = 90, hjust = 1))"
